@@ -16,15 +16,25 @@ h1,h2,h3,h4,h5,p{
     text-align: center;
 }
 
-#decimal-numbers-container{
-    background-color: green;
+#main-binary-numbers-container{
+    display:flex;
+    justify-content: center;
+    gap:20px;
 }
 
-#binary-numbers-container{
-    background-color: red;
+.binary-number-container{
+    width:200px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#cards-container{
+.binary-number{
+    font-size: 100px;;
+}
+
+#main-cards-container{
     display:flex;
     justify-content: center;
     gap:20px;
