@@ -19,11 +19,7 @@ function updateTotal(){
 };
 
 imagesArr.forEach(img=>img.addEventListener('click',function(){
-    if(img.classList.contains('hidden')){
-        img.classList.remove('hidden');
-    }else{
-        img.classList.add('hidden');
-    };
+    img.classList.contains('hidden') ? img.classList.remove('hidden') : img.classList.add('hidden')
     updateBinaryNumber(img.id);
     updateTotal();
 }));
