@@ -1,0 +1,54 @@
+h1,h2,h3,h4,h5,p{
+    font-family: Candal;
+    margin:0px;
+    padding:0px;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
+
+#main-header{
+    font-size: 100px;;
+    text-align: center;
+}
+
+#decimal-numbers-container{
+    background-color: green;
+}
+
+#binary-numbers-container{
+    background-color: red;
+}
+
+#cards-container{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.binary-card{
+    width:200px;
+    height:300px;
+    border:1px lightgrey solid;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+.hidden{
+    content: url('./images/whitesquare.png');
+}
+
+#total{
+    font-size: 100px;
+    text-align: center;
+}
