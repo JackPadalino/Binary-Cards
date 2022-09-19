@@ -14,7 +14,6 @@ function updateTotal(){
     imagesArr.forEach(img=>{
         if(!img.classList.contains('hidden')) cardTotal+=Number(img.getAttribute('data-value'));
     });
-    console.log(cardTotal);
     total.innerText=cardTotal;
 };
 
